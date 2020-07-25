@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenesisFramework.Application", "GenesisFramework.Application", "{101C18E0-DAAD-42B2-846F-2A59FFE7AF70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenesisFramework.Domain", "GenesisFramework.Domain", "{0131E79C-C617-4A7F-A508-139FB6BFA405}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenesisFramework.Infra.IoC", "GenesisFramework.Infra.IoC", "{70ABDFA4-D156-4B46-8FBB-90AD1B5B6A3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenesisFramework.Infra.Data", "GenesisFramework.Infra.Data", "{C34ADFAA-CA1B-42EC-8DBA-A3C2FE2B11F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenesisFramework.UI.MVC", "GenesisFramework.UI.MVC", "{708790C6-41CD-499E-8B59-D7B020663D73}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
