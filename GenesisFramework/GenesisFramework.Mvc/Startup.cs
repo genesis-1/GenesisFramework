@@ -12,6 +12,7 @@ using GenesisFramework.Mvc.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using GenesisFramework.infrastructure.Data.Context;
 
 namespace GenesisFramework.Mvc
 {
@@ -34,6 +35,11 @@ namespace GenesisFramework.Mvc
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddDbContext<GenesisFrameworkDbContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("GenesisFrameworkDbConnection"));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
