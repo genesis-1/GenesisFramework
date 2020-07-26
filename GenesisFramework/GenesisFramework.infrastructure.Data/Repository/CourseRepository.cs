@@ -6,7 +6,7 @@ using GenesisFramework.infrastructure.Data.Context;
 
 namespace GenesisFramework.infrastructure.Data.Repository
 {
-    class CourseRepository : ICourseRepository
+    public class CourseRepository : ICourseRepository
     {
         private GenesisFrameworkDbContext _context;
 
