@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenesisFramework.Mvc", "Gen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenesisFramework.Domain", "GenesisFramework.Domain\GenesisFramework.Domain.csproj", "{DCDD9967-2BBF-4145-82CC-6844CA4CC2F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenesisFramework.infrastructure.Data", "GenesisFramework.infrastructure.Data\GenesisFramework.infrastructure.Data.csproj", "{EB4D2951-A350-4E27-9B35-71F74D4758DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenesisFramework.infrastructure.Data", "GenesisFramework.infrastructure.Data\GenesisFramework.infrastructure.Data.csproj", "{EB4D2951-A350-4E27-9B35-71F74D4758DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenesisFramework.Application", "GenesisFramework.Application\GenesisFramework.Application.csproj", "{CFD9891E-6A70-4F05-A379-364C5ED84D26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenesisFramework.Application", "GenesisFramework.Application\GenesisFramework.Application.csproj", "{CFD9891E-6A70-4F05-A379-364C5ED84D26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenesisFramework.infrastructure.IoC", "GenesisFramework.infrastructure.IoC\GenesisFramework.infrastructure.IoC.csproj", "{5AACC3EB-A73C-48C9-AB8B-883C222F198D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{CFD9891E-6A70-4F05-A379-364C5ED84D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFD9891E-6A70-4F05-A379-364C5ED84D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFD9891E-6A70-4F05-A379-364C5ED84D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AACC3EB-A73C-48C9-AB8B-883C222F198D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AACC3EB-A73C-48C9-AB8B-883C222F198D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AACC3EB-A73C-48C9-AB8B-883C222F198D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AACC3EB-A73C-48C9-AB8B-883C222F198D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{DCDD9967-2BBF-4145-82CC-6844CA4CC2F0} = {0131E79C-C617-4A7F-A508-139FB6BFA405}
 		{EB4D2951-A350-4E27-9B35-71F74D4758DF} = {C34ADFAA-CA1B-42EC-8DBA-A3C2FE2B11F7}
 		{CFD9891E-6A70-4F05-A379-364C5ED84D26} = {101C18E0-DAAD-42B2-846F-2A59FFE7AF70}
+		{5AACC3EB-A73C-48C9-AB8B-883C222F198D} = {70ABDFA4-D156-4B46-8FBB-90AD1B5B6A3F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AEA4389-C4C4-49BF-8812-22991BDD38DB}
