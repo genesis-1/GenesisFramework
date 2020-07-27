@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenesisFramework.infrastruc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenesisFramework.Application", "GenesisFramework.Application\GenesisFramework.Application.csproj", "{CFD9891E-6A70-4F05-A379-364C5ED84D26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenesisFramework.infrastructure.IoC", "GenesisFramework.infrastructure.IoC\GenesisFramework.infrastructure.IoC.csproj", "{5AACC3EB-A73C-48C9-AB8B-883C222F198D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenesisFramework.infrastructure.IoC", "GenesisFramework.infrastructure.IoC\GenesisFramework.infrastructure.IoC.csproj", "{5AACC3EB-A73C-48C9-AB8B-883C222F198D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure.Bus", "infrastructure.Bus", "{6E853843-DEAD-4283-A5FC-D24BF17CB4B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{ACC0AFC0-2729-40A0-BFC2-1C9EF917965B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
