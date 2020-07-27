@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using GenesisFramework.infrastructure.Data.Context;
+using GenesisFramework.infrastructure.IoC;
 
 namespace GenesisFramework.Mvc
 {
@@ -40,6 +41,8 @@ namespace GenesisFramework.Mvc
             {
                 options.UseSqlServer(Configuration.GetConnectionString("GenesisFrameworkDbConnection"));
             });
+
+            RegisterServices(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -71,6 +74,11 @@ namespace GenesisFramework.Mvc
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
+        }
+
+        private static void RegisterServices(IServiceCollection services)
+        {
+            DependencyContainer.RegisterServices(services);
         }
     }
 }
