@@ -15,7 +15,7 @@ namespace GenesisFramework.Mvc.Controllers
 
         public CourseController(ICourseService courseService)
         {
-            courseService = _courseService;
+             _courseService = courseService;
         }
 
         // GET: Course
