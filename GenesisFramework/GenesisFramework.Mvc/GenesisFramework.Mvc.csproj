@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GenesisFramework.Application\GenesisFramework.Application.csproj" />
-    <ProjectReference Include="..\GenesisFramework.infrastructure.Data\GenesisFramework.infrastructure.Data.csproj" />
     <ProjectReference Include="..\GenesisFramework.infrastructure.IoC\GenesisFramework.infrastructure.IoC.csproj" />
   </ItemGroup>
 
