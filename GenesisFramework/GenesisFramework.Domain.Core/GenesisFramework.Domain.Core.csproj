@@ -8,8 +8,4 @@
     <PackageReference Include="MediatR" Version="8.0.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\GenesisFramework.Domain.Core\GenesisFramework.Domain.Core.csproj" />
-  </ItemGroup>
-
 </Project>
