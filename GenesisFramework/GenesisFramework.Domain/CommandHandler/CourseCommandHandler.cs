@@ -28,7 +28,7 @@ namespace GenesisFramework.Domain.CommandHandler
                 ImgeUrl = request.ImageUrl
             };
 
-            _courseRepository.add(course);
+            _courseRepository.Add(course);
 
             return Task.FromResult(true);
         }
