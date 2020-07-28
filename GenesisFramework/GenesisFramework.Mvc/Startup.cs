@@ -14,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using GenesisFramework.infrastructure.Data.Context;
 using GenesisFramework.infrastructure.IoC;
+using MediatR;
 
 namespace GenesisFramework.Mvc
 {
@@ -41,6 +42,8 @@ namespace GenesisFramework.Mvc
             {
                 options.UseSqlServer(Configuration.GetConnectionString("GenesisFrameworkDbConnection"));
             });
+
+            services.AddMediatR(typeof(Startup));
 
             RegisterServices(services);
         }
