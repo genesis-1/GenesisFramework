@@ -17,7 +17,7 @@ namespace GenesisFramework.Domain.CommandHandler
         public CourseCommandHandler(ICourseRepository courseRepository)
         {
             _courseRepository = courseRepository;
-        }
+       }
 
         public Task<bool> Handle(CreateCourseCommand request, CancellationToken cancellationToken)
         {
